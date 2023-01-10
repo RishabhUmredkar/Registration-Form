@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+</body>
+</html>
+<center>
+    <table border="2">
+        <tbody>
+        <form>
+            <tr>
+        <td colspan="2" align="center">
+        <center>
+            <h2>
+                Registration Form
+            </h2>
+        </center>
+        </td>
+        </tr>
+        
+        <tr>
+            <td>
+                Name
+            </td>
+        
+            <td>
+                 <input type = "text"size="30">
+            </td>
+        
+        </tr>
+        
+        <tr>
+            <td>
+                College
+            </td>
+        
+            <td>
+                 <input type = "text"size="30">
+            </td>
+        
+        </tr> 
+        
+        <tr>
+            <td>
+                Education
+            </td>
+        
+            <td>
+            <select>
+            <option>---- Qualification ---</option>
+            <option>Metric</option>
+            <option>Graduate</option>
+            <option>Udergraduate</option>
+            <option>Post Graduate</option>
+            <option>Phd</option>
+            </select>
+        </td>
+        </tr>
+    
+        <tr>
+            <td>
+                Mobile No.
+            </td>
+            <td>
+                <input type = "password"size="30">
+            </td>
+        </tr>
+    
+        <tr>
+            <tr>
+                <td>
+                    Email.com
+                </td>
+                <td>
+                    <input type = "email"size="30">
+                </td>
+            </tr>
+            <tr>
+        
+        <td>
+            Gender
+        </td>
+       
+        <td>
+        <input type="radio"name="os">Male<br>
+        <input type="radio"name="os">Female<br>
+        <input type="radio"name = "os">Other<br>
+        </td>
+        
+        </tr>
+        <tr>
+            <td>
+                State
+            </td>
+        
+            <td>
+            <select>
+            <option>---- States ---</option>
+            <option>Maharstra</option>
+            <option>Madhya Pradesh</option>
+            <option>Uttar Pradesh</option>
+            <option>Gujarat</option>
+            <option>Tamil Nadu</option>
+            </select>
+        </td>
+        </tr>
+        
+        <tr>
+            <td>
+                Documents
+            </td>
+            <td>
+                <input type="checkbox">Birth Certificate<br>
+                <input type="checkbox">Marksheet<br>
+                <input type="checkbox">Address Proof<br>
+                <input type="checkbox">Aadhar Card<br>
+                <input type="checkbox">Band PassBook<br>
+            
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                <textarea rows = "5" cols = "25"></textarea>
+    
+            </td>
+        </tr>
+    
+        <tr>
+            <td colspan="2" align="center">
+                <center>
+                <input type = "submit" value="Save"/>
+                <br>
+                <input type="reset" value="Clear"/>
+                </center>
+                </td>
+                 
+        </tr>
+            </td>
+        </form>
+        </tbody>
+        </table>
+    </center>
+    </body>
+    </html>
